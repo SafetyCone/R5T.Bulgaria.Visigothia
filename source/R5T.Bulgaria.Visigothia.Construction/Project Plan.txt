@@ -1,0 +1,4 @@
+R5T.Bulgaria.Visigothia.Construction - A construction console-app for the library R5T.Bulgaria.Visigothia.
+
+Goals
+
