@@ -11,7 +11,7 @@ namespace R5T.Bulgaria.Visigothia
     {
         private IUserProfileDirectoryPathProvider UserProfileDirectoryPathProvider { get; }
         private IDropboxDirectoryNameConvention DropboxDirectoryNameConvention { get; }
-        public IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
+        private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
 
 
         public UserProfileDropboxDirectoryPathProvider(
