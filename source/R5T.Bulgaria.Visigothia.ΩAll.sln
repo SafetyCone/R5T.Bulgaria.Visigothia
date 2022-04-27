@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bulgaria.Visigothia.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Bulgaria.Visigothia.Testing", "R5T.Bulgaria.Visigothia.Testing\R5T.Bulgaria.Visigothia.Testing.csproj", "{E4BABD88-7E4F-4DD3-8AF8-7A833BF8D73E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{88BC1F24-DAC2-4506-8167-7656B02E1A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{E4BABD88-7E4F-4DD3-8AF8-7A833BF8D73E}.Release|x64.Build.0 = Release|Any CPU
 		{E4BABD88-7E4F-4DD3-8AF8-7A833BF8D73E}.Release|x86.ActiveCfg = Release|Any CPU
 		{E4BABD88-7E4F-4DD3-8AF8-7A833BF8D73E}.Release|x86.Build.0 = Release|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Release|x64.Build.0 = Release|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A4C062B-D1FC-46F5-9A24-B9C73F201AC2} = {88BC1F24-DAC2-4506-8167-7656B02E1A4C}
 	EndGlobalSection
 EndGlobal

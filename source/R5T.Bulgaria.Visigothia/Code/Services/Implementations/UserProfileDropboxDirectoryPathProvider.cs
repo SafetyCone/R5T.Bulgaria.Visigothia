@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Lombardy;
 using R5T.Peristeria;
-using R5T.Visigothia;
+using R5T.Visigothia;using R5T.T0064;
 
 
 namespace R5T.Bulgaria.Visigothia
-{
-    public class UserProfileDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class UserProfileDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider,IServiceImplementation
     {
         private IUserProfileDirectoryPathProvider UserProfileDirectoryPathProvider { get; }
         private IDropboxDirectoryNameConvention DropboxDirectoryNameConvention { get; }
